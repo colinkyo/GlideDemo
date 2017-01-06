@@ -14,7 +14,7 @@ import com.example.a7yan.glidedemo.R;
  * Created by 7Yan on 2017/1/6.
  */
 
-public class GlideRecyclerViewAdapter extends RecyclerView.Adapter<GlideRecyclerViewAdapter.ViewHolder>{
+public class GlideRecyclerViewAdapter<V extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<GlideRecyclerViewAdapter.ViewHolder>{
     private Context mContext;
     public static final String[] mDatas=new String[]{
             "http://b.hiphotos.baidu.com/image/h%3D200/sign=80043cea9e82d158a4825eb1b00a19d5/aa18972bd40735fab7c0f4bd9c510fb30f240885.jpg",
